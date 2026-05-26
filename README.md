@@ -1,9 +1,9 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=Shreyansh%20Tiwari&fontSize=65&fontAlignY=38&animation=twinkling&fontColor=white&desc=Software%20Engineer%20%7C%20Go%20Enthusiast%20%7C%20ML%20Explorer&descAlignY=60&descSize=20" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=Shreyansh%20Tiwari&fontSize=65&fontAlignY=38&animation=twinkling&fontColor=white&desc=Backend%20Engineer%20%7C%20Go%20%7C%20AI%2FML%20%7C%201M%2B%20daily%20hits&descAlignY=60&descSize=20" />
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&random=false&width=650&lines=Building+scalable+backends+with+Go+%F0%9F%90%BA;Exploring+ML+%26+AI+%F0%9F%A4%96;Concurrency+%26+Design+Patterns+nerd;gRPC+%7C+Microservices+%7C+Clean+Architecture" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&random=false&width=700&lines=Building+backends+that+handle+1M%2B+daily+hits+%F0%9F%9A%80;Go+%7C+Kafka+%7C+Kubernetes+%7C+AWS;KYC+%7C+Risk+Engines+%7C+Onboarding+Systems;LangChain+%7C+RAG+%7C+MCP+Architecture;Figure-it-out+mindset+%F0%9F%94%A7" alt="Typing SVG" />
 </div>
 
 <br/>
@@ -11,6 +11,9 @@
 <div align="center">
   <a href="https://linkedin.com/in/shreyanshtiwari5800">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="mailto:shreyansh.tiwari8@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
   <a href="https://github.com/coziamshreyansh">
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
@@ -20,7 +23,7 @@
 
 ---
 
-## 🚀 About Me
+## 🧑‍💻 About Me
 
 ```go
 package main
@@ -28,24 +31,44 @@ package main
 import "fmt"
 
 type Engineer struct {
-    Name     string
-    Location string
-    Company  string
-    Loves    []string
-    Learning []string
+	Name     string
+	Location string
+	Now      string
+	Scale    string
+	Stack    []string
+	Building []string
 }
 
 func main() {
-    me := Engineer{
-        Name:     "Shreyansh Tiwari",
-        Location: "Bengaluru, India 🇮🇳",
-        Company:  "Niyo Solutions Inc.",
-        Loves:    []string{"Go", "gRPC", "Concurrency", "System Design"},
-        Learning: []string{"Machine Learning", "AI", "Distributed Systems"},
-    }
-    fmt.Printf("👋 Hey, I'm %s — I build things that scale.\n", me.Name)
+	me := Engineer{
+		Name:     "Shreyansh Tiwari",
+		Location: "Bengaluru, India 🇮🇳",
+		Now:      "SDE-1 @ Niyo Solutions Inc.",
+		Scale:    "1M+ daily hits 🚀",
+		Stack:    []string{"Go", "Kafka", "Kubernetes", "AWS", "gRPC", "Redis"},
+		Building: []string{"KYC & Onboarding Systems", "Risk Engines", "AI/LLM Pipelines"},
+	}
+	fmt.Println("Backend engineer who figures things out.")
+	fmt.Printf("Currently: %s | Scale: %s\n", me.Now, me.Scale)
 }
 ```
+
+---
+
+## 💼 Experience
+
+**🏢 Niyo Solutions Inc. — SDE-1** *(May 2025 – Present)*
+- Owns the **Identity & Onboarding backbone** across all business verticals — Video KYC, CKYC, DKYC & RBI-compliant flows
+- Built the **Real-Time Risk Profiling engine** — AML scores, PEP status, income brackets, zero friction
+- Driving **AI initiatives** — MCP authentication research, AI Regional Managers for automated decision-making
+- Owns the **Intelligence Vault** — centralized S3-powered document repo with automated OCR (Karza + in-house AI)
+
+**🏢 Open Financial Technologies — Software Engineer** *(Jul 2023 – May 2025)*
+- **Migrated notification service to Go** → 30% infra cost reduction, ~30% latency cut
+- Engineered end-to-end **HDFC Bank-MBDB** payout, beneficiary & onboarding flows
+- Designed a **priority queue mechanism** standardized across the application
+- Integrated **ELK APIs** into admin portal — eliminated manual log searches
+- Achieved **100% production uptime** through complex migrations with zero downtime
 
 ---
 
@@ -55,21 +78,38 @@ func main() {
 
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 
-**Backend & Protocols**
+**Backend & Infrastructure**
 
-![gRPC](https://img.shields.io/badge/gRPC-4285F4?style=for-the-badge&logo=google&logoColor=white)
-![REST](https://img.shields.io/badge/REST-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
-
-**Infrastructure & Tools**
-
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Kafka](https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![gRPC](https://img.shields.io/badge/gRPC-4285F4?style=for-the-badge&logo=google&logoColor=white)
+![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white)
+![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
+
+**AI / LLM**
+
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+
+**Databases**
+
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+
+**Observability & Tools**
+
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
+![Kibana](https://img.shields.io/badge/Kibana-005571?style=for-the-badge&logo=kibana&logoColor=white)
+![Datadog](https://img.shields.io/badge/Datadog-632CA6?style=for-the-badge&logo=datadog&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
 ---
 
