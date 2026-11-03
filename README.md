@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=Shreyansh%20Tiwari&fontSize=65&fontAlignY=38&animation=twinkling&fontColor=white&desc=Backend%20Engineer%20%7C%20Go%20%7C%20AI%2FML%20%7C%201M%2B%20hits/minute&descAlignY=60&descSize=20" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=Shreyansh%20Tiwari&fontSize=65&fontAlignY=38&animation=twinkling&fontColor=white&desc=Backend%20Engineer%20%7C%20Go%20%7C%20AI%2FML%20%7C%201M%2B%20hits/minute&descAlignY=60&descSize=20&descAlignY=Payments" />
 </div>
 
 <div align="center">
@@ -44,9 +44,9 @@ func main() {
 		Name:     "Shreyansh Tiwari",
 		Location: "Bengaluru, India 🇮🇳",
 		Now:      "SDE-1 @ Niyo Solutions Inc.",
-		Scale:    "1M+ daily hits 🚀",
+		Scale:    "1M+ hits/minute 🚀",
 		Stack:    []string{"Go", "Kafka", "Kubernetes", "AWS", "gRPC", "Redis"},
-		Building: []string{"KYC & Onboarding Systems", "Risk Engines", "AI/LLM Pipelines"},
+		Building: []string{"Payments", "KYC & Onboarding Systems", "Risk Engines", "AI/LLM Pipelines"},
 	}
 	fmt.Println("Backend engineer who figures things out.")
 	fmt.Printf("Currently: %s | Scale: %s\n", me.Now, me.Scale)
